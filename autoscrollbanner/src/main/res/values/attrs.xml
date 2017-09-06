@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoScrollLayout">
+        <attr name="autoscroll_show_indicator" format="boolean" />
+        <attr name="autoscroll_indicator_drawable" format="reference" />
+        <attr name="autoscroll_indicator_background" format="reference|color" />
+        <attr name="autoscroll_indicator_padding" format="reference|dimension" />
+        <attr name="autoscroll_indicator_gravity" format="enum">
+            <enum name="left" value="0x01" />
+            <enum name="center" value="0x02" />
+            <enum name="right" value="0x03" />
+        </attr>
+        <attr name="autoscroll_auto_start" format="boolean" />
+        <attr name="autoscroll_scroll_infinite" format="boolean" />
+
+    </declare-styleable>
+</resources>
